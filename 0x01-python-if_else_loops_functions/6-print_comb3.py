@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""prints all possible different combinations of two digits."""
+"""prints all possible different combinations of 2 digits"""
 for num_1 in range(10):
     for num_2 in range(10):
         if num_1 < num_2:
