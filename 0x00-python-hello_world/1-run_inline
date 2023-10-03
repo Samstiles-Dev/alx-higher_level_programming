@@ -1,6 +1,3 @@
 #!/bin/bash
-
 # This is a Shell script to run Python code stored in the $PYCODE environment variable.
-
-# This line of code run the Python code stored in the PYCODE variable
 python3 -c "$PYCODE"
