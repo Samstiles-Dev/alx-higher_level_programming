@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """prints the last digit of a number."""
+
+
 def uppercase(str):
     tmp = list(str)
     for i in range(len(tmp)):
