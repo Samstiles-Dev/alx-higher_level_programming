@@ -3,10 +3,5 @@
 
 
 def divisible_by_2(my_list=[]):
-    array_list = my_list[:]
-    for ind, val in enumerate(my_list):
-        if val % 2 == 0:
-            array_list[ind] = True
-        else:
-            array_list[ind] = False
-    return(array_list)
+    result = [num % 2 == 0 for num in my_list]
+    return result
