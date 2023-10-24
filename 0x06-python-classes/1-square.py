@@ -3,5 +3,6 @@
 
 
 class Square:
+    """make a private instance attributes"""
     def __init__(self, size):
         self.__size = size
