@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 0-square.py defines a sqaure
-"""a class for a square"""
+"""an empty class Square that defines a square"""
 
 
 class Square:
