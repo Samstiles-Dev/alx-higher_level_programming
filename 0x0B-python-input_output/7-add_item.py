@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-  Mod that converts arg to a python list,
-  and save them into a file
+  Mod that converts args to a python list,
+  & save them into a file
 """
 
 
