@@ -1,10 +1,8 @@
 #!/usr/bin/node
 
-const integers = require('process');
-const a = parseInt(integers.argv[2]);
-const b = parseInt(integers.argv[3]);
-
-function add (a, b) {
-  console.log(a + b);
+const a = parseInt(process.argv[2], 10);
+const b = parseInt(process.argv[3], 10);
+function add (x, y) {
+  return (x + y);
 }
-add(a, b);
+console.log(add(a, b));
