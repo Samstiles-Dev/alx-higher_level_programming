@@ -1,9 +1,9 @@
 #!/usr/bin/node
 const request = require('request');
 
-// A Wedge Antilles movies count
+// Wedge Antilles movies count
 function countMovies (apiEndpoint) {
-  const character_id = 18;
+  const characterId = 18;
   request.get(apiEndpoint, function (error, response, body) {
     if (error) {
       console.log(error);
@@ -13,7 +13,7 @@ function countMovies (apiEndpoint) {
       for (let i = 0; i < films.length; i++) {
         const characters = films[i].characters;
         for (let j = 0; j < characters.length; j++) {
-          if (characters[j].includes(character_id)) {
+          if (characters[j].includes(characterId)) {
             count++;
           }
         }
